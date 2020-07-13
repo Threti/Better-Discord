@@ -48,7 +48,7 @@ Simplified-Green made by den -> https://github.com/denBot/Simplistic-CSS/blob/ma
 @import url('https://bdsources.github.io/sourcecheck/code.css');
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css');
 :root {
-  --Update-Text: " Update #525";
+  --Update-Text: " Update #526";
   --File-Updated-2020-5-24: url(https://nfld99.com/images/RDLTF.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -14261,13 +14261,13 @@ img.icon-3d72ZP[src="/assets/0682cf612d4fed39efb57e0a1bcc8544.svg"]
   transition: all 250ms;
 }
 
-.xenoLib-notification-content{
+/* .xenoLib-notification-content{
   width: 97vw;
 }
 
 .xenoLib-notification-content-wrapper{
   padding: 20px 20px 0px 20px;
-}
+} */
 
 .IAN-message .IAN-avatar{
   border-radius: var(--Chat-Avatar-Border-Radius);
@@ -15288,3 +15288,145 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark .content-RXzE-X ul li:before{
   background-color: var(--Main-Colour);
 }
+
+#app-mount:not([nfldinccurrentuser]) > .app-1q1i1E::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	color: var(--Main-Colour);
+	font-size: 50px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 150vh;
+	opacity: 0;
+	z-index: 9998;
+	pointer-events: none;
+	animation: cv-init2 5s ease-in-out;
+	animation-delay: 5s;
+}
+@keyframes cv-init2 {
+	0% {
+		content: "Plugin Not Loaded";
+		-webkit-transform: scale(.7);
+		background: var(--Secondary-Background-Colour);
+		transform: scale(.7)
+	}
+	25% {
+		opacity: 0;
+		-webkit-transform: scale(.7);
+		background: var(--Secondary-Background-Colour);
+		transform: scale(.7)
+	}
+	30% {
+		opacity: .3;
+		-webkit-transform: scale(1);
+		background: var(--Secondary-Background-Colour);
+		transform: scale(1)
+	}
+	45% {
+		opacity: .3;
+		-webkit-transform: scale(1);
+		background: var(--Secondary-Background-Colour);
+		transform: scale(1)
+	}
+	49% {
+		content: "Plugin Not Loaded";
+		opacity: 0;
+		-webkit-transform: scale(1.3);
+		background: var(--Secondary-Background-Colour);
+		transform: scale(1.3)
+	}
+	50% {
+		content: "Please download and start the plugin";
+		opacity: 0;
+		-webkit-transform: scale(.7);
+		background: var(--Secondary-Background-Colour);
+		transform: scale(.7)
+	}
+	55% {
+		opacity: .3;
+		-webkit-transform: scale(1);
+		background: var(--Secondary-Background-Colour);
+		transform: scale(1)
+	}
+	70% {
+		opacity: .3;
+		-webkit-transform: scale(1);
+		background: var(--Secondary-Background-Colour);
+		transform: scale(1)
+	}
+	74% {
+		content: "Please download and start the plugin";
+		opacity: 0;
+		-webkit-transform: scale(1.3);
+		background: var(--Secondary-Background-Colour);
+		transform: scale(1.3)
+	}
+	75% {
+		content: "https://nfld99.com/plugin";
+		opacity: 0;
+		-webkit-transform: scale(.7);
+		background: var(--Secondary-Background-Colour);
+		transform: scale(.7)
+	}
+	80% {
+		opacity: .3;
+		-webkit-transform: scale(1);
+		background: var(--Secondary-Background-Colour);
+		transform: scale(1)
+	}
+	95% {
+		opacity: .3;
+		-webkit-transform: scale(1);
+		background: var(--Secondary-Background-Colour);
+		transform: scale(1)
+	}
+	99% {
+		content: "https://nfld99.com/plugin";
+		opacity: 0;
+		-webkit-transform: scale(.7);
+		background: var(--Secondary-Background-Colour);
+		transform: scale(.7)
+	}
+	100% {
+		content: "";
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		background: var(--Secondary-Background-Colour);
+		opacity: 0
+	}
+}
+
+.status-1WEaea {
+	border: 1px solid var(--Secondary-Main-Colour);
+	color: var(--Secondary-Main-Colour);
+	background-color: var(--Background-Colour);
+}
+
+.colorable-1bkp8v.white-3GPOIp,
+ .colorable-1bkp8v.white-3GPOIp .centerIcon-2G6o-T,
+ .colorable-1bkp8v.white-3GPOIp:hover,
+	.colorable-1bkp8v.white-3GPOIp .centerIcon-2G6o-T:hover {
+	color: var(--Secondary-Main-Colour);
+}
+
+.colorable-1bkp8v.white-3GPOIp,
+.colorable-1bkp8v.white-3GPOIp:hover {
+	background: var(--Secondary-Background-Colour);
+}
+
+.title-3qD0b- > div > .status-1XNdyw > svg > foreignObject > div{
+	border-radius: 100%;
+}
+
+.theme-dark .checkbox-1ix_J3:not(.checked-3_4uQ9) > svg{
+	display: none;
+}
+
+.colorDefault-2K3EoJ:not(.hideInteraction-1iHO1O){
+	border-color: transparent;
+}
+
